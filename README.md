@@ -1,6 +1,14 @@
 # WorkPlus JS-SDK 代码事例
 
-此仓库包含多个 JS-SDK 的使用代码事例，你可 clone 项目并运行。
+此仓库包含多个 JS-SDK 的使用代码事例，你可 clone 项目并在 WorkPlus 上运行。
+
+包括以下：
+
+* [直接引入](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/normal)
+* [vue 技术栈](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/vue)
+* [react 技术栈](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/react)
+
+> vue 项目是基于 @vue/cli 进行创建；react 项目即是通过 CRA(create-react-app) 进行创建。
 
 ## 在线 demo
 
@@ -9,12 +17,6 @@
 <p class="w6s-image">
   <img src="qrcode.png" alt="sdk demo" width="200px" />
 </p>
-
-## 演示代码
-
-* [直接引入](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/normal)
-* [vue 技术栈](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/vue)
-* [react 技术栈](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/react)
 
 ## 资源文件
 
