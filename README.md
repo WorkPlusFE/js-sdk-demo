@@ -1,11 +1,13 @@
 # WorkPlus JS-SDK 代码事例
 
+此仓库包含多个 JS-SDK 的使用代码事例，你可 clone 项目并运行。
+
 ## 在线 demo
 
 请使用 WorkPlus 扫一扫，查看在线 Demo：
 
 <p class="w6s-image">
-  <img src="sdk-demo-qrcode.png" alt="sdk demo" width="220px" />
+  <img src="qrcode.png" alt="sdk demo" width="200px" />
 </p>
 
 ## 演示代码
