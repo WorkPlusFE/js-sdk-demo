@@ -22,7 +22,7 @@
 
 **JS-SDK 输出文件：**
 
-* <a href="https://open.workplus.io/static/js-sdk/sdk.min.1.1.0-beta.0.js" download="sdk.min.js" >sdk.min.1.1.0-beta.0.js</a>
+* <a href="https://open.workplus.io/static/js-sdk/sdk.1.1.0-beta.0.js" download="sdk.1.1.0-beta.0.js" >sdk.1.1.0-beta.0.js</a>
 
 **CordovaJs 文件：**
 
