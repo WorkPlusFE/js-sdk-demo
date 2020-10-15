@@ -1368,10 +1368,10 @@
   resolved "https://registry.npm.taobao.org/@vue/web-component-wrapper/download/@vue/web-component-wrapper-1.2.0.tgz#bb0e46f1585a7e289b4ee6067dcc5a6ae62f1dd1"
   integrity sha1-uw5G8VhafiibTuYGfcxaauYvHdE=
 
-"@w6s/sdk@^1.0.1-alpha.0":
-  version "1.0.1-alpha.0"
-  resolved "https://registry.npm.taobao.org/@w6s/sdk/download/@w6s/sdk-1.0.1-alpha.0.tgz#0e249b567b06ab84f07404c956712605a343c00c"
-  integrity sha1-DiSbVnsGq4TwdATJVnEmBaNDwAw=
+"@w6s/sdk@^1.1.0-beta.1":
+  version "1.1.0-beta.1"
+  resolved "https://registry.npm.taobao.org/@w6s/sdk/download/@w6s/sdk-1.1.0-beta.1.tgz#735d1a6069b2d8f2b2485e760b8f62a98249bece"
+  integrity sha1-c10aYGmy2PKySF52C49iqYJJvs4=
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"

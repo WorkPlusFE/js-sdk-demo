@@ -1,18 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" width="80" src="./assets/logo.png">
+    <h3>Welcome to Your Vue.js App!</h3>
+    <ul>
+      <li v-for="(val, key) in deviceInfo" :key="key">
+        <strong>{{key}}</strong>: {{val}}
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import * as w6s from '@w6s/sdk';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  data() {
+    return {
+      deviceInfo: {},
+    };
+  },
+  mounted() {
+    w6s.device.getDeviceInfo()
+      .then((res) => {
+        this.deviceInfo = res.result;
+      });
+  },
 }
 </script>
 
@@ -21,8 +34,18 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+ul {
+  border-top: 1px solid #eeeeee;
+  padding: 20px 0;
+}
+
+li {
+  list-style: none;
+  text-align: left;
 }
 </style>
