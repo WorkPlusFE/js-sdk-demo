@@ -5,6 +5,23 @@
     <title>WorkPlus JS-SDK Demo</title>
 </head>
 <body>
-    
+    <div class="app">
+        <h1>WorkPlus JS-SDK</h1>
+        <div>
+            <h4>设备信息：</h4>
+            <p id="device"></p>
+        </div>
+    </div>
+    <script src="./sdk.1.1.0-beta.3.js"></script>
+    <script>
+        window.onload = function() {
+            const $deviceEl = document.getElementById('device');
+            w6s.device.getDeviceInfo({
+                success(res) {
+                    $deviceEl.innerHTML = JSON.stringify(res.result, null, 4);
+                }
+            });
+        };
+     </script>
 </body>
 </html>
