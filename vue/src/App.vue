@@ -21,6 +21,7 @@ export default {
     };
   },
   mounted() {
+    w6s.header.setTitle('JS-SDK VueJS Demo');
     w6s.device.getDeviceInfo()
       .then((res) => {
         this.deviceInfo = res.result;
