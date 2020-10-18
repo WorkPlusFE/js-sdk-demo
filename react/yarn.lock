@@ -1761,10 +1761,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@w6s/sdk@^1.0.1-alpha.0":
-  version "1.0.1-alpha.0"
-  resolved "https://registry.npm.taobao.org/@w6s/sdk/download/@w6s/sdk-1.0.1-alpha.0.tgz#0e249b567b06ab84f07404c956712605a343c00c"
-  integrity sha1-DiSbVnsGq4TwdATJVnEmBaNDwAw=
+"@w6s/sdk@^1.1.0-beta.3":
+  version "1.1.0-beta.3"
+  resolved "https://registry.npm.taobao.org/@w6s/sdk/download/@w6s/sdk-1.1.0-beta.3.tgz#126ed085e2d8f13c20556a9c73b45ed5d7db4497"
+  integrity sha1-Em7QheLY8TwgVWqcc7Re1dfbRJc=
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
