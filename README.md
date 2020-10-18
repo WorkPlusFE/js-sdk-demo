@@ -20,12 +20,5 @@
 
 ## 资源文件
 
-**JS-SDK 输出文件：**
-
-* <a href="https://open.workplus.io/static/js-sdk/sdk.1.1.0-beta.0.js" download="sdk.1.1.0-beta.0.js" >sdk.1.1.0-beta.0.js</a>
-
-**CordovaJs 文件：**
-
-* <a href="https://open.workplus.io/static/android.cordova.min.js" download="android.cordova.min.js" >android.cordova.min.js</a>
-* <a href="https://open.workplus.io/static/ios.cordova.min.js" download="ios.cordova.min.js" >ios.cordova.min.js</a>
+具体请访问[WorkPlus 开放平台](https://open.workplus.io/v4/js-sdk/overview/demo.html#%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6)。
 
