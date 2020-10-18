@@ -20,5 +20,5 @@
 
 ## 资源文件
 
-具体请访问[WorkPlus 开放平台](https://open.workplus.io/v4/js-sdk/overview/demo.html#%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6)。
+具体请访问 [WorkPlus 开放平台](https://open.workplus.io/v4/js-sdk/overview/demo.html#%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6)。
 
