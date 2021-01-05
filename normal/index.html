@@ -12,8 +12,15 @@
             <p id="device"></p>
         </div>
     </div>
-    <script src="./sdk.1.1.0-beta.5.js"></script>
+    <script src="./sdk.1.1.0-beta.6.js"></script>
     <script>
+        w6s.init({
+            useHttp: true,
+            cordovajs: {
+                android: 'https://open.workplus.io/static/android.cordova.min.js',
+                iOS: 'https://open.workplus.io/static/ios.cordova.min.js'
+            },
+        });
         window.onload = function() {
             const $deviceEl = document.getElementById('device');
             w6s.device.getDeviceInfo({

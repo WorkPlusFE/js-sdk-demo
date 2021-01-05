@@ -11,8 +11,6 @@
 </template>
 
 <script>
-import * as w6s from '@w6s/sdk';
-
 export default {
   name: 'App',
   data() {
@@ -21,8 +19,8 @@ export default {
     };
   },
   mounted() {
-    w6s.header.setTitle('JS-SDK VueJS Demo');
-    w6s.device.getDeviceInfo()
+    this.$w6s.header.setTitle('JS-SDK VueJS Demo');
+    this.$w6s.device.getDeviceInfo()
       .then((res) => {
         this.deviceInfo = res.result;
       });

@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkPlus JS-SDK Demo</title>
+</head>
+<body>
+    <div id="app">
+        <h1>WorkPlus JS-SDK</h1>
+        <div>
+            <h4>设备信息：</h4>
+            <p>{{deviceInfo}}</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="./sdk.1.1.0-beta.6.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                deviceInfo: '',
+            },
+            mounted() {
+                this.$w6s.init({
+                    useHttp: true,
+                    cordovajs: {
+                        android: 'https://open.workplus.io/static/android.cordova.min.js',
+                        iOS: 'https://open.workplus.io/static/ios.cordova.min.js'
+                    },
+                });
+                
+                this.$w6s.device.getDeviceInfo()
+                    .then((res) => {
+                        this.deviceInfo = JSON.stringify(res.result, null, 4);
+                    })
+            },
+        })
+     </script>
+</body>
+</html>
