@@ -7,7 +7,7 @@
 包括以下：
 
 * [直接引入](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/normal)
-* [vue base](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/vue-normal)
+* [vue base](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/vue-base)
 * [vue](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/vue)
 * [react](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/react)
 
