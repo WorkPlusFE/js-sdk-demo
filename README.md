@@ -7,10 +7,11 @@
 包括以下：
 
 * [直接引入](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/normal)
-* [vue 技术栈](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/vue)
-* [react 技术栈](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/react)
+* [vue base](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/vue-normal)
+* [vue](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/vue)
+* [react](https://github.com/WorkPlusFE/js-sdk-demo/tree/master/react)
 
-> vue 项目是基于 @vue/cli 进行创建；react 项目即是通过 CRA(create-react-app) 进行创建。
+>`vue base`是通过 cdn 直接引入vue；`vue`项目是基于 @vue/cli 进行创建；`react`项目即是通过 CRA(create-react-app) 进行创建。
 
 ## 在线 demo
 
