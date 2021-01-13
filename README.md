@@ -1,6 +1,6 @@
 # WorkPlus JS-SDK 代码事例
 
-[![npm version](https://badge.fury.io/js/%40w6s%2Fsdk.svg)](https://badge.fury.io/js/%40w6s%2Fsdk) [![![Build Status](https://travis-ci.com/WorkPlusFE/js-sdk-demo.svg?branch=master)](https://travis-ci.com/WorkPlusFE/js-sdk-demo)
+[![npm version](https://badge.fury.io/js/%40w6s%2Fsdk.svg)](https://badge.fury.io/js/%40w6s%2Fsdk) [![Build Status](https://travis-ci.com/WorkPlusFE/js-sdk-demo.svg?branch=master)](https://travis-ci.com/WorkPlusFE/js-sdk-demo)
 
 此仓库包含多个 JS-SDK 的使用代码事例，你可 clone 项目并在 WorkPlus 上运行。
 
