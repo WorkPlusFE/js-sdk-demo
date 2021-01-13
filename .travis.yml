@@ -14,9 +14,8 @@ after_script:
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
   - git add .
-  - git commit -m "Update sdk version"
-  - git branch
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" ${TRAVIS_BRANCH}:${P_BRANCH}
+  - git commit -m "ci:\ update sdk version"
+  - git push --force --quiet "https://${GH_TOKEN}@github.com/WorkPlusFE/js-sdk-demo.git" master:master
 branches:
   only:
     - master
