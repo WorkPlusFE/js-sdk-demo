@@ -9,12 +9,11 @@ install:
   - yarn
 script:
   - yarn update
-  - echo "${TRAVIS_BRANCH}"
 after_script:
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
   - git add .
-  - git commit -m "ci:\ update sdk version"
+  - git commit -m "(travis-ci) update sdk version"
   - git push "https://${GH_TOKEN}@github.com/WorkPlusFE/js-sdk-demo.git" HEAD:master
 branches:
   only:
