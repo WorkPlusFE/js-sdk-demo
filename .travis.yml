@@ -11,12 +11,11 @@ script:
   - yarn update
   - echo "${TRAVIS_BRANCH}"
 after_script:
-  - git init
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
   - git add .
   - git commit -m "ci:\ update sdk version"
-  - git push --force --quiet "https://${GH_TOKEN}@github.com/WorkPlusFE/js-sdk-demo.git" master:master
+  - git push
 branches:
   only:
     - master
