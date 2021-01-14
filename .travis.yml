@@ -11,6 +11,7 @@ script:
   - yarn update
   - echo "${TRAVIS_BRANCH}"
 after_script:
+  - git init
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
   - git add .
