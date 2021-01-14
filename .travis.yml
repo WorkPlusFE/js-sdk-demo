@@ -15,7 +15,7 @@ after_script:
   - git config user.email "${U_EMAIL}"
   - git add .
   - git commit -m "ci:\ update sdk version"
-  - git push origin HEAD:master
+  - git push "https://${GH_TOKEN}@github.com/WorkPlusFE/js-sdk-demo.git" HEAD:master
 branches:
   only:
     - master
