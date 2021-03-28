@@ -1368,9 +1368,9 @@
   resolved "https://registry.npm.taobao.org/@vue/web-component-wrapper/download/@vue/web-component-wrapper-1.2.0.tgz#bb0e46f1585a7e289b4ee6067dcc5a6ae62f1dd1"
   integrity sha1-uw5G8VhafiibTuYGfcxaauYvHdE=
 
-"@w6s/sdk@^1.1.0-beta.8":
-  version "1.1.0-beta.8"
-  resolved "https://registry.npm.taobao.org/@w6s/sdk/download/@w6s/sdk-1.1.0-beta.8.tgz?cache=0&sync_timestamp=1609841889003&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40w6s%2Fsdk%2Fdownload%2F%40w6s%2Fsdk-1.1.0-beta.8.tgz#902977e6203b3e2e41708e76c195b824a14918d4"
+"@w6s/sdk@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/@w6s/sdk/download/@w6s/sdk-1.2.0.tgz?cache=0&sync_timestamp=1609841889003&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40w6s%2Fsdk%2Fdownload%2F%40w6s%2Fsdk-1.2.0.tgz#902977e6203b3e2e41708e76c195b824a14918d4"
   integrity sha1-kCl35iA7Pi5BcI52wZW4JKFJGNQ=
 
 "@webassemblyjs/ast@1.9.0":
