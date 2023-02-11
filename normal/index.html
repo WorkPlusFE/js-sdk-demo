@@ -12,7 +12,7 @@
             <p id="device"></p>
         </div>
     </div>
-    <script src="https://open.workplus.io/static/js-sdk/sdk.1.2.0.js"></script>
+    <script src="https://open.workplus.io/static/js-sdk/sdk.2.0.0-beta.11.js"></script>
     <script>
         w6s.init({
             useHttp: true,
@@ -27,6 +27,11 @@
                 success(res) {
                     $deviceEl.innerHTML = JSON.stringify(res.result, null, 4);
                 }
+            });
+
+            w6s.event.bindResumeEvent(() => {
+                // 此处执行特定逻辑
+                alert('页面返回了');
             });
         };
      </script>
