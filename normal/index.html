@@ -2,6 +2,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script>
+    // VConsole will be exported to `window.VConsole` by default.
+    var vConsole = new window.VConsole();
+    </script>
     <title>WorkPlus JS-SDK Demo</title>
 </head>
 <body>
@@ -11,15 +16,19 @@
             <h4>设备信息：</h4>
             <p id="device"></p>
         </div>
+        <div>
+            <hr>
+            <button id="bindBackBtn">绑定返回按钮事件</button>
+            <hr>
+            <button id="unbindBackBtn">解除绑定</button>
+        </div>
     </div>
     <script src="https://open.workplus.io/static/js-sdk/sdk.2.0.0-beta.11.js"></script>
     <script>
         w6s.init({
-            useHttp: true,
-            cordovajs: {
-                android: 'https://open.workplus.io/static/android.cordova.min.js',
-                iOS: 'https://open.workplus.io/static/ios.cordova.min.js'
-            },
+            debug: true,
+            auth: false,
+            useHttp: false
         });
         window.onload = function() {
             const $deviceEl = document.getElementById('device');
@@ -33,6 +42,18 @@
                 // 此处执行特定逻辑
                 alert('页面返回了');
             });
+
+            const btn = document.getElementById('bindBackBtn');
+            btn.addEventListener('click', function() {
+                w6s.event.bindBackButtonEvent(function() {
+                    alert('页面退出!');
+                });
+            }, false);
+
+            const unbindBtn = document.getElementById('unbindBackBtn');
+            unbindBtn.addEventListener('click', function() {
+                w6s.event.unbindBackButtonEvent();
+            }, false);
         };
      </script>
 </body>
